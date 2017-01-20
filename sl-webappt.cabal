@@ -15,7 +15,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Lib
+  exposed-modules:     Control.Monad.Trans.SLWebApp
   build-depends:       base >= 4.7 && < 5,
                        exceptions >= 0.8.3,
                        monad-control >= 1.0.1.0,
